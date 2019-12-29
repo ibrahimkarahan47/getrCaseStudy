@@ -1,0 +1,23 @@
+{
+  "name": "GetirCase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "mocha ./tests --exit"
+  },
+  "keywords": [],
+  "author": "İbrahim Karahan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "joi-date-extensions": "^1.2.0",
+    "mocha": "^6.2.2",
+    "mongoose": "^5.8.3"
+  }
+}
